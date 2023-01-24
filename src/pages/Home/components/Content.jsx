@@ -40,7 +40,7 @@ const Content = (props) => {
             <Col className="content__container__details" sm={12} md={6}>
               <div>
                 <h1>
-                  <AnimatedCounter end={50} duration={1} />
+                  <AnimatedCounter end={6} duration={1} />
                   <span style={{ color: '#8ED2A9' }}>+</span>
                 </h1>
                 <h6>Completed projects</h6>
@@ -116,7 +116,7 @@ const Content = (props) => {
               <Col sm={6} md={6} lg={3}>
                 <StrengthItem
                   image="https://ik.imagekit.io/itsrakesh/Portfolio/work-ethic_jaB_-v1Sr.png?ik-sdk-version=javascript-1.4.3&updatedAt=1644134495355"
-                  title="Work Ethic"
+                  title="Workaholic"
                   description="I don't wait for deadlines, deadlines wait for me."
                 />
               </Col>
